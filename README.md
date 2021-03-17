@@ -7,6 +7,10 @@
  go build -o osArgsDemo  不用带后缀
  
  go run *.go -cp filelzh/zzz  MyApp  123 144
+ 
+ 报错：package Projectname is not in GOROOT (C:\Program Files\Go\src\Projectname)
+ go env -w GO111MODULE=off
+
 
 ```
 
@@ -16,4 +20,7 @@
 
 - 运行ch01下对main时, 可以同时选额多个文件运行 
 # 日志
+20210317 读取class文件
+./ch02/main -Xjre "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre" java.lang.Object
+
 20210307 创建项目
